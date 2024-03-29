@@ -1,0 +1,86 @@
+export const mens_kurta = [
+    {
+        "imageURL": "https://www.mangaldeep.co.in/image/cache/data/blissful-magenta-fancy-silk-fabric-festive-wear-mens-kurta-with-bottom-58875-800x1100.jpg",
+        "brand": "Black Stallion",
+        "title": "Men Solid Linen Regular Kurta",
+        "color": "Blue",
+        "discountedPrice": 749,
+        "quantity": 50,
+        "topLevelCategory": "Mens",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "mens_kurta",
+        "description": "This is a beautiful, comfortable men's kurta made from 100% pure linen. It features a classic regular fit and a solid blue color. Perfect for everyday wear or special occasions."
+      },
+      {
+        "imageURL": "https://assets.panashindia.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/3/9330.jpg",
+        "brand": "Fabindia",
+        "title": "Men Handwoven Cotton Bandhgala Kurta",
+        "color": "Maroon",
+        "discountedPrice": 1299,
+        "quantity": 25,
+        "topLevelCategory": "Mens",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "mens_kurta",
+        "description": "A luxurious handwoven cotton kurta with a bandhgala collar. This kurta is perfect for making a statement at any formal event."
+      },
+      {
+        "imageURL": "https://i.pinimg.com/236x/dc/d4/0d/dcd40d9a7f9cf6a52e6cd4b2b93b15f6.jpg",
+        "brand": "Majestic Man",
+        "title": "Men Printed pure cotton Straight Kurta",
+        "color": "Green",
+        "discountedPrice": 499,
+        "quantity": 100,
+        "topLevelCategory": "Mens",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "mens_kurta",
+        "description": "A stylish kurta with a printed design, perfect for a casual outing."
+      },
+      {
+        "imageURL": "https://5.imimg.com/data5/SELLER/Default/2021/12/DU/TS/VZ/527778/trendy-classy-mens-kurta-pajama-500x500.jpg",
+        "brand": "Peter England",
+        "title": "Men Cotton Blend Nehru Jacket Kurta Set",
+        "color": "Navy Blue",
+        "discountedPrice": 1999,
+        "quantity": 75,
+        "topLevelCategory": "Mens",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "mens_kurta",
+        "description": "A sophisticated kurta set featuring a Nehru jacket and kurta, perfect for formal occasions."
+      },
+      {
+        "imageURL": "https://5.imimg.com/data5/SQ/NC/MY-61376355/men-kurta-pajama.jpg",
+        "brand": "Manyavar",
+        "title": "Men Silk Blend Sherwani Kurta",
+        "color": "Gold",
+        "discountedPrice": 3499,
+        "quantity": 30,
+        "topLevelCategory": "Mens",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "mens_kurta",
+        "description": "A luxurious sherwani kurta made from a silk blend, perfect for weddings and special events."
+      },
+      {
+        "imageURL": "https://assets.panashindia.com/media/catalog/product/cache/1/image/479x671/9df78eab33525d08d6e5fb8d27136e95/9/0/904mw18-2418.jpg",
+        "brand": "Sojanya",
+        "title": "Men Cotton Printed Short Kurta",
+        "color": "White",
+        "discountedPrice": 699,
+        "quantity": 85,
+        "topLevelCategory": "Mens",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "mens_kurta",
+        "description": "A comfortable and stylish short kurta with a printed design, perfect for summer wear."
+      },
+      {
+        "imageURL": "https://rilancio.pk/cdn/shop/products/MSTEKR22V427_2_ffde76a6-367f-4a28-82c1-e47a55fecc26_1000x.jpg?v=1699955296",
+        "brand": "Biba",
+        "title": "Men Linen Blend Pathani Kurta",
+        "color": "Beige",
+        "discountedPrice": 999,
+        "quantity": 42,
+        "topLevelCategory": "Mens",
+        "secondLevelCategory": "Clothing",
+        "thirdLevelCategory": "mens_kurta",
+        "description": "A relaxed-fit kurta made from a linen blend, perfect for everyday wear."
+      },
+]
