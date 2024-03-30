@@ -1,0 +1,20 @@
+.productCard .textPart{
+    transition: transform .3s ease-out;
+
+}
+
+.productCard:hover .textPart {
+    transform: translateY(-1rem);
+}
+
+.productCard:hover img{
+    opacity: 90%;
+    background-blend-mode: color-burn;
+}
+
+
+/* 
+.productCard:hover{
+    box-shadow: ;
+} */
+

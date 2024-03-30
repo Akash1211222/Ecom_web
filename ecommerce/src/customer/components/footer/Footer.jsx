@@ -20,17 +20,17 @@ const Footer = () => {
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               Contact us
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               Blogs
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               Jobs
             </Button>
           </div>
@@ -47,17 +47,17 @@ const Footer = () => {
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               Analytics
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               Commerce
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               Support
             </Button>
           </div>
@@ -74,7 +74,7 @@ const Footer = () => {
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               API Status
             </Button>
           </div>
@@ -91,12 +91,12 @@ const Footer = () => {
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               Privacy
             </Button>
           </div>
           <div>
-            <Button className=" pb-5" varient="h6" gutterB>
+            <Button className=" pb-5" varient="h6" >
               Terms
             </Button>
           </div>

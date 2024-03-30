@@ -1,3 +1,5 @@
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import React, { useState } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -9,26 +11,34 @@ import { Button } from "@mui/material";
 const HomeSectionCarosel = ({ data, sectionName }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const responsive = {
-    0: {
-      items: 1,
+    desktopMax: {
+      breakpoint: { max: 3000, min: 1244 },
+      items: 5,
+      slidesToSlide: 2, // optional, default to 1.
     },
-    560: {
-      items: 2,
-    },
-    820: {
+    desktop: {
+      breakpoint: { max: 1244, min: 1020 },
       items: 3,
+      slidesToSlide: 2, // optional, default to 1.
     },
-    1024: {
-      items: 4,
+    tablet: {
+      breakpoint: { max: 957, min: 464 },
+      items: 2,
+      slidesToSlide: 2, // optional, default to 1.
+    },
+    mobile: {
+      breakpoint: { max: 487, min: 0 },
+      items: 1,
+      slidesToSlide: 1, // optional, default to 1.
     },
   };
 
-  const slidePrev = () => setActiveIndex(activeIndex - 1);
-  const slideNext = () => setActiveIndex(activeIndex + 1);
+//   const slidePrev = () => setActiveIndex(activeIndex - 1);
+//   const slideNext = () => setActiveIndex(activeIndex + 1);
 
-  const syncActiveIndex = ({ item }) => setActiveIndex(item);
+//   const syncActiveIndex = ({ item }) => setActiveIndex(item);
 
-  const items = data.map((item) => <HomeSectionCard product={item} />);
+  const items = data.slice(1, 11).map((item) => <HomeSectionCard product={item} />);
 
   return (
     <div className=" relative px-4 lg:px-8 ">
@@ -36,18 +46,17 @@ const HomeSectionCarosel = ({ data, sectionName }) => {
         {sectionName}
       </h2>
       <div className=" relative p-5">
-        <AliceCarousel
-          items={items}
-          disableButtonsControls
+        <Carousel responsive={responsive}>{items}</Carousel>
+        {/* disableButtonsControls
           responsive={responsive}
           disableDotsControls
           onSlideChanged={syncActiveIndex}
           activeIndex={activeIndex}
-        />
-        {activeIndex !== items.length - 4 && (
+        /> */}
+        {/* {activeIndex !== items.length - 4 && (
           <Button
             variant="contained"
-            aria-label="next"
+            // aria-label="next"
             className="z-50 bg-white"
             sx={{
               position: "absolute",
@@ -66,7 +75,7 @@ const HomeSectionCarosel = ({ data, sectionName }) => {
         {activeIndex !== 0 && (
           <Button
             variant="contained"
-            aria-label="prev"
+            // aria-label="prev"
             className="z-50 bg-white"
             sx={{
               position: "absolute",
@@ -81,7 +90,7 @@ const HomeSectionCarosel = ({ data, sectionName }) => {
               sx={{ transform: "rotate(90deg)", color: "black" }}
             />
           </Button>
-        )}
+        )} */}
       </div>
     </div>
   );
