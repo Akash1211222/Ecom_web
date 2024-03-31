@@ -30,6 +30,8 @@ export const filters = [
       { value: "S", label: "S" },
       { value: "M", label: "M" },
       { value: "L", label: "L" },
+      { value: "XL", label: "XL" },
+      { value: "XXL", label: "XXL" },
     ],
   },
 ];
@@ -48,7 +50,7 @@ export const singleFilter = [
   },
   {
     id: "discount",
-    name: "Discount Range",
+    name: "Disccount Range",
     options: [
       {
         value: "10",

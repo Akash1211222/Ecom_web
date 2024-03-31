@@ -11,10 +11,10 @@ function App() {
         <Navigation />
       </div>
       <div className="home">
-        <HomePage />
-        {/* <Product /> */}
+        {/* <HomePage /> */}
+        <Product />
         <Footer />
-      </div>
+      </div> 
     </>
   );
 }

@@ -10,7 +10,7 @@ const HomePage = () => {
       <div className=' z-10'>
           <MainCarosel/>
     </div>
-    <div className=' py-20 space-y-10 flex-col justify-center px-5 lg:px-10 z-0'>
+    <div className=' py-20 space-y-10 flex-col justify-center px-5 lg:px-10 z-0 '>
         <HomeSectionCarosel data={mens_kurta} sectionName={"Men's Kurta" } />
         <HomeSectionCarosel data={mens_kurta} sectionName={"Men's Shirt" } />
         <HomeSectionCarosel data={mens_kurta} sectionName={"Men's Shirt" } />
