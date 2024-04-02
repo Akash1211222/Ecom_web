@@ -502,12 +502,15 @@ export default function Navigation() {
                     className="flex items-center text-gray-700 hover:text-gray-800"
                   >
                     <img
-                      src="https://tailwindui.com/img/flags/flag-canada.svg"
+                      src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1599px-Flag_of_India.svg.png?20230723002237"
                       alt=""
                       className="block h-auto w-5 flex-shrink-0"
                     />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
-                    <span className="sr-only">, change currency</span>
+                    <select name="language" id="langyage">
+                      <option value="en">English</option>
+                      <option value="hi">Hindi</option>
+                    </select>
+                    
                   </a>
                 </div>
 
